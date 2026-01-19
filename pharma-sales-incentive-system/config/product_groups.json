@@ -1,0 +1,43 @@
+{
+  "product_groups": {
+    "NICORETTE_GUM": {
+      "name": "Nicorette Gum",
+      "products": [
+        "NICORETTE SAKIZ 2MG",
+        "NICORETTE SAKIZ 4MG",
+        "NICORETTE GUM 105"
+      ],
+      "weight": 10,
+      "category": "OTC"
+    },
+    "NICORETTE_TOTAL": {
+      "name": "Nicorette Total",
+      "products": [
+        "NICORETTE COOLS",
+        "NICORETTE PATCH",
+        "NICORETTE GUM"
+      ],
+      "weight": 8,
+      "category": "OTC"
+    },
+    "DIGER_ITRIYAT": {
+      "name": "Diğer İtriyat",
+      "products": [
+        "JOHNSON'S BABY",
+        "NEUTROGENA",
+        "CAREFREE"
+      ],
+      "weight": 5,
+      "category": "Consumer"
+    }
+  },
+  "product_mapping_rules": {
+    "case_sensitive": false,
+    "trim_whitespace": true,
+    "fuzzy_match_threshold": 0.85
+  },
+  "excluded_from_bonus": [
+    "PROMO_ITEMS",
+    "SAMPLE_PRODUCTS"
+  ]
+}

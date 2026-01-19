@@ -1,0 +1,35 @@
+{
+  "regions": {
+    "MARMARA": {
+      "id": 1,
+      "name": "Marmara",
+      "bm": "ATİLLA TOKATLIOĞLU",
+      "cities": ["İstanbul", "Bursa", "Kocaeli", "Sakarya", "Tekirdağ"],
+      "st_count": 6
+    },
+    "EGE": {
+      "id": 2,
+      "name": "Ege",
+      "bm": "CENKER TURAN",
+      "cities": ["İzmir", "Aydın", "Denizli", "Manisa", "Muğla"],
+      "st_count": 6
+    },
+    "IC_ANADOLU_KARADENIZ": {
+      "id": 3,
+      "name": "İç Anadolu-Karadeniz",
+      "bm": "MEHMET TAŞPINAR",
+      "cities": ["Ankara", "Konya", "Eskişehir", "Samsun", "Trabzon"],
+      "st_count": 6
+    },
+    "DOGU_AKDENIZ": {
+      "id": 4,
+      "name": "Doğu Akdeniz",
+      "bm": "HASAN EMİR BOZLU",
+      "cities": ["Adana", "Mersin", "Antalya", "Gaziantep", "Şanlıurfa"],
+      "st_count": 6
+    }
+  },
+  "total_st": 24,
+  "total_bm": 6,
+  "brick_coverage": "500+"
+}

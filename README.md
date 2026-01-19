@@ -16,7 +16,7 @@ Bu sistem, ilaç şirketlerinin saha satış temsilcilerinin (ÜTT/ST) performan
 - 🎯 **Hedef Yönetimi**: Aylık ve çeyreklik hedef takibi
 - 💰 **Prim Hesaplama**: Ağırlıklı KPI bazlı otomatik prim hesaplama
 - 📈 **Raporlama**: Detaylı Excel rapor çıktıları
-- 🗺️ **Bölge Yönetimi**: ? bölge, ? BM, ??+ ST organizasyonu
+- 🗺️ **Bölge Yönetimi**: 4 bölge, 6 BM, 24+ ST organizasyonu
 - 📁 **Veri İthalatı**: Excel dosyalarından otomatik veri yükleme
 
 ## 📋 KPI Yapısı
@@ -90,7 +90,8 @@ pharma-sales-incentive-system/
 
 ### Gereksinimler
 
-
+- Python 3.10 veya üzeri
+- pip paket yöneticisi
 
 ### Adımlar
 
@@ -214,12 +215,12 @@ Türkiye (4 Bölge)
 
 ```json
 {
-  "--": {
-    "urunler": ["---- 2MG", "-----4MG", "-----"],
+  "NICORETTE_GUM": {
+    "urunler": ["NICORETTE SAKIZ 2MG", "NICORETTE SAKIZ 4MG", "NICORETTE GUM 105"],
     "agirlik": 10
   },
   "DIGER_ITRIYAT": {
-    "urunler": ["******", "**********", "*********"],
+    "urunler": ["JOHNSON'S BABY", "NEUTROGENA", "CAREFREE"],
     "agirlik": 5
   }
 }

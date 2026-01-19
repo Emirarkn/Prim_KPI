@@ -215,12 +215,12 @@ Türkiye (4 Bölge)
 
 ```json
 {
-  "NICORETTE_GUM": {
-    "urunler": ["NICORETTE SAKIZ 2MG", "NICORETTE SAKIZ 4MG", "NICORETTE GUM 105"],
+  "--": {
+    "urunler": ["---- 2MG", "-----4MG", "-----"],
     "agirlik": 10
   },
   "DIGER_ITRIYAT": {
-    "urunler": ["JOHNSON'S BABY", "NEUTROGENA", "CAREFREE"],
+    "urunler": ["******", "**********", "*********"],
     "agirlik": 5
   }
 }
